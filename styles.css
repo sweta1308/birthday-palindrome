@@ -2,4 +2,41 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: purple;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    color: #fde68a;
+}
+
+input {
+    display: block;
+    margin-left: 50%;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+label {
+    font-size: larger;
+    color: #99f6e4;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: medium;
+    background: transparent;
+    color: #99f6e4;
+    border-color: #99f6e4;
+}
+
+#output {
+    color: #fde68a;
+    max-width: 30%;
+    margin: 2rem auto;
 }
