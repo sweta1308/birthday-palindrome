@@ -23,6 +23,8 @@ input {
 label {
     font-size: larger;
     color: #99f6e4;
+    display: block;
+    padding-top: 3rem;
 }
 
 button {
@@ -63,4 +65,15 @@ button {
     display: inline;
     padding: 1rem;
     text-align: center;
+}
+
+.notice {
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    color: #06b6d4;
+    font-size: large;
+    display: inline;
+    padding: 0.5rem;
+    margin: 1rem auto;
 }
