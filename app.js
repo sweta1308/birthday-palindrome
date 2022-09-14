@@ -125,11 +125,13 @@ function palindromeBday() {
         };
         if (checkPalindrome(date)) {
             result.innerText = `Yayy! Your Birthday is Palindrome 🤩`
-        } else {
+        } else  {
             var [ctr, newDate] = getNextPalindrome(date);
             result.innerText = `Ohhoo! Your birthday is not a palindrome🙁. The next palindrome is ${newDate.day}-${newDate.month}-${newDate.year}. You missed it by ${ctr} days. `
         
-            
+
         }
+    } else {
+        result.innerText = "Please enter your birthdate."
     }
 }
