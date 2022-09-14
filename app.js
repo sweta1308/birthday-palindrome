@@ -27,11 +27,7 @@ function convertToString(date) {
     inputDate.year = date.year.toString();
     return inputDate;
 }
-var date = {
-    day: 4,
-    month: 11,
-    year: 2020
-}
+
 
 function dateFormats(date) {
     var inputDate = convertToString(date);
@@ -135,3 +131,5 @@ function palindromeBday() {
         result.innerText = "Please enter your birthdate."
     }
 }
+
+
